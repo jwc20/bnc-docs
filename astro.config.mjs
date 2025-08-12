@@ -1,9 +1,7 @@
-// @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import catppuccin from "@catppuccin/starlight";
 
-// https://astro.build/config
 export default defineConfig({
   site: "https://jwc20.github.io",
   base: "bnc-docs",
