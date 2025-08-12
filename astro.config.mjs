@@ -5,6 +5,8 @@ import catppuccin from "@catppuccin/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://jwc20.github.io",
+  base: "bnc-docs",
   integrations: [
     starlight({
       title: "My Docs",
