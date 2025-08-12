@@ -17,6 +17,12 @@ export default defineConfig({
       ],
       sidebar: [
         {
+          label: "Introduction",
+          items: [
+            { label: "Intro", slug: "intro/1" },
+          ],
+        },
+        {
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
