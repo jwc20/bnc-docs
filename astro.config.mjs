@@ -29,10 +29,20 @@ export default defineConfig({
         {
           label: "Development",
           items: [
-            { label: "Example Guide", slug: "development/1" },
-            { label: "Example Guide", slug: "development/2" },
-            { label: "Example Guide", slug: "development/3" },
-            { label: "Example Guide", slug: "development/4" },
+            { label: "Goal", slug: "development/1" },
+            { label: "Game Library", items: [{ label: "Goal", slug: "development/game/1" }] },
+            { label: "Backend API", slug: "development/2" },
+            { label: "Frontend Client", slug: "development/3" },
+            { label: "Deployment", slug: "development/4" },
+          ],
+        },
+                {
+          label: "Reflections",
+          items: [
+            { label: "What I did", slug: "reflection/1" },
+            { label: "What I learned", slug: "reflection/2" },
+            { label: "What can I improve", slug: "reflection/3" },
+            { label: "Ideas", slug: "reflection/4" },
           ],
         },
         {
