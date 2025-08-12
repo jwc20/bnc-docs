@@ -19,14 +19,20 @@ export default defineConfig({
         {
           label: "Introduction",
           items: [
-            { label: "Intro", slug: "intro/1" },
+            { label: "Goal", slug: "intro/1" },
+            { label: "Mastermind", slug: "intro/2" },
+            { label: "Gameplay", slug: "intro/3" },
+            { label: "Running the code", slug: "intro/4" },
+            { label: "Code Structure Overview", slug: "intro/5" },
           ],
         },
         {
-          label: "Guides",
+          label: "Development",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "Example Guide", slug: "development/1" },
+            { label: "Example Guide", slug: "development/2" },
+            { label: "Example Guide", slug: "development/3" },
+            { label: "Example Guide", slug: "development/4" },
           ],
         },
         {
