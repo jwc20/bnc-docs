@@ -20,9 +20,9 @@ export default defineConfig({
           label: 'Introduction',
           items: [
             // { label: 'Preface', slug: 'intro/00-preface' },
-            { label: 'Multiplayer', slug: 'intro/01-intro' },
             { label: 'Requirements', slug: 'intro/02-req' },
             { label: 'Overview', slug: 'intro/03-overview' },
+            { label: 'Multiplayer/Websocket', slug: 'intro/01-intro' },
             { label: 'Development Timeline', slug: 'intro/04-timeline' },
             { label: 'Tools', slug: 'intro/05-tools' }
           ]
