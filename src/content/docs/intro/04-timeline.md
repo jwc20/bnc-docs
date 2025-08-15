@@ -8,7 +8,7 @@ title: Project Timeline
 
 
 <div className="images">
-    <img src="../../../../public/imgs/bncpy-tl.jpg" alt="bncpy" width="100%">
+    <img src="../../../../public/bncpy-tl.jpg" alt="bncpy" width="100%">
 </div>
 
 <hr class="dashed">
@@ -19,7 +19,7 @@ title: Project Timeline
 
 
 <div className="images">    
-    <img src="../../../../public/imgs/bncapi-tl.jpg" alt="bncapi" width="100%">
+    <img src="../../../../public/bncapi-tl.jpg" alt="bncapi" width="100%">
 </div>
 
 <hr class="dashed">
@@ -30,7 +30,7 @@ title: Project Timeline
 
 
 <div className="images">
-    <img src="../../../../public/imgs/bnc-client-tl.jpg" alt="bnc-client" width="100%">
+    <img src="../../../../public/bnc-client-tl.jpg" alt="bnc-client" width="100%">
 </div>
 
 
