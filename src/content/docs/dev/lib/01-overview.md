@@ -16,10 +16,12 @@ title: Game Library - bncpy
    - **Determines win/loss conditions**
    - Each row contains: guess digits, bulls count, cows count, and filled status
 
-
+<!-- 
 <div className="images">
     <img src="../../../../public/board.png" alt="board" width="70%">
-</div>
+</div> -->
+
+![alt text](../../../../../public/board.png)
 
 <hr class="dashed">
 
@@ -28,9 +30,12 @@ title: Game Library - bncpy
    - Assign guess-making to their board
    - Tracks individual game state (won/over)
 
-<div className="images">
+<!-- <div className="images">
     <img src="../../../../public/player.png" alt="player" width="50%">
-</div>
+</div> -->
+
+
+![alt text](../../../../../public/player.png)
 
 <hr class="dashed">
 
@@ -41,11 +46,11 @@ title: Game Library - bncpy
    - Handles game state transitions (SETUP → IN_PROGRESS → FINISHED)
 
 
-<div className="images">
+<!-- <div className="images">
     <img src="../../../../public/game.png" alt="game" width="50%">
-</div>
+</div> -->
 
-
+![alt text](../../../../../public/game.png)
 
 
 
@@ -61,9 +66,11 @@ title: Game Library - bncpy
 <br />
 
 
-<div className="images">
+<!-- <div className="images">
     <img src="../../../../public/state.png" alt="state" width="70%">
-</div>
+</div> -->
+
+![alt text](../../../../../public/state.png)
 
 
 5. **GameConfig** - Configuration data class

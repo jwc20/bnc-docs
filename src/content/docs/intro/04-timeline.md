@@ -7,9 +7,11 @@ title: Project Timeline
 [Click to see page](https://jwc20.github.io/bnc-docs/bncpy_gantt_chart.html)
 
 
-<div className="images">
+<!-- <div className="images">
     <img src="../../../../public/bncpy-tl.jpg" alt="bncpy" width="100%">
-</div>
+</div> -->
+
+![alt text](../../../../public/bncpy-tl.jpg)
 
 <hr class="dashed">
 
@@ -18,9 +20,11 @@ title: Project Timeline
 [Click to see page](https://jwc20.github.io/bnc-docs/bncapi_gantt_chart.html)
 
 
-<div className="images">    
+<!-- <div className="images">    
     <img src="../../../../public/bncapi-tl.jpg" alt="bncapi" width="100%">
-</div>
+</div> -->
+
+![alt text](../../../../public/bncapi-tl.jpg)
 
 <hr class="dashed">
 
@@ -29,10 +33,11 @@ title: Project Timeline
 [Click to see page](https://jwc20.github.io/bnc-docs/bnc_client_gantt_chart.html)
 
 
-<div className="images">
+<!-- <div className="images">
     <img src="../../../../public/bnc-client-tl.jpg" alt="bnc-client" width="100%">
-</div>
+</div> -->
 
+![alt text](../../../../public/bnc-client-tl.jpg)
 
 
 
