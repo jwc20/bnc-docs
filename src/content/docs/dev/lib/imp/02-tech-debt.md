@@ -4,20 +4,19 @@ title: Architecture Evolution and Technical Debt
 
 `GameState` and `GameConfig` were created in a rush so they could be saved both in the **PostgreSQL** database (as JSON data) and in the browser's local storage using **Zustand**. I didn't carefully specify the requirements needed for GameState/GameConfig, leaving several items unused.
 
-
 ## Used components
 
 **Currently used components in GameState/GameConfig:**
 
 **GameState:**
+
 - Properties: `config`, `game_started`, `players`
 - Methods: `submit_guess()`, `reset()`, `add_player()`, `remove_player()`, `to_dict()`, `from_dict()`
 
 **GameConfig:**
+
 - Properties: `code_length`, `num_of_colors`, `num_of_guesses`, `secret_code`, `game_type`
 - Methods: `generate_secret_code()`
-
-
 
 ## Unused components
 
@@ -32,10 +31,9 @@ title: Architecture Evolution and Technical Debt
     - If a player has made guesses but their token is not in `players`, the game can end
     - However, if the player's token remains in `players`, the game cannot end until they finish
 
-
 ## Example Json
 
-Example json data that is stored in db and local storage. 
+Example json data that is stored in db and local storage.
 
 ```json
 {
@@ -57,13 +55,14 @@ Example json data that is stored in db and local storage.
     },
     ...
   ],
-  "players": [], // not used
-  "winners": [], // not used
-  "game_won": false, // not used
-  "game_over": false, // not used
+  "players": [],
+  "winners": [],
+  "game_won": false,
+  "game_over": false,
   "current_row": 8, // not used
   "secret_code": null, // not used
   "game_started": false, // not used
+
   "players_data": { // not used
     "134552a7": {
       "name": "134552a7", // not used
@@ -72,13 +71,11 @@ Example json data that is stored in db and local storage.
       "game_over": false, // not used
       "current_row": 0, // not used
       "remaining_guesses": 5 // not used
-    }, 
+    },
     ...
   },
   "remaining_guesses": 100 // not used
 }
 ```
 
-
 These unused items should be removed, but since I didn't want the game to break before the deadline, I decided not to change them.
-
